@@ -30,3 +30,11 @@ print(f"la media de los numeros 1, 2, 3, 4 es {media_numeros(listanumeros)}")
 # cuadrado de numeros
 listacuadrados = [1, 2, 3, 4]
 print(f"el cuadrado de los numeros 1, 2, 3, 4 es {cuadrado_de_numeros(listacuadrados)}")
+
+#cantidad de palabras
+palabras = input("ingrese una frase\n")
+cantidad_palabras(palabras)
+
+#cantidad letras
+letras = input("ingrese una frase\n")
+cantidad_letras(letras)
